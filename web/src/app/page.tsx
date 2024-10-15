@@ -2,14 +2,14 @@ import Head from 'next/head';
 
 const Home = () => {
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-gradient-to-b from-indigo-600 via-indigo-700 to-indigo-800">
       <Head>
         <title>Web Wave Studios</title>
         <meta name="description" content="Welcome to Web Wave Studios" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header className="bg-white shadow">
+      <header className="">
         <div className="container mx-auto py-4 px-6 flex justify-between items-center">
           <h1 className="text-2xl font-bold text-primary">Web Wave Studios</h1>
           <nav>
@@ -23,7 +23,7 @@ const Home = () => {
         </div>
       </header>
 
-      <main className="container mx-auto py-20 px-6">
+      {/* <main className="container mx-auto py-20 px-6">
         <section className="text-center">
           <h2 className="text-4xl font-bold text-secondary mb-4">Welcome to Web Wave Studios</h2>
           <p className="text-lg text-gray-700 mb-8">
@@ -39,7 +39,7 @@ const Home = () => {
         <div className="container mx-auto text-center">
           <p>&copy; {new Date().getFullYear()} Web Wave Studios. All rights reserved.</p>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 };
